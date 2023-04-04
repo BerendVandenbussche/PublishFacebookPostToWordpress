@@ -31,6 +31,7 @@ def save_latest_post_id_to_file(post_id):
 def get_latest_id_from_file():
     file = open("latest_post_id.txt", "r")
     id = file.readlines()[0]
+    file.close()
     return id
 
 
