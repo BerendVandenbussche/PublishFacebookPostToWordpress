@@ -5,7 +5,7 @@ Publish latest facebook page posts to wordpress
 ### Env file content
 
 ```
-FB_ACCESS_TOKEN=
+FB_USER_ID=
 FB_PAGE_ID=
 WP_APP_USER=
 WP_APP_PASS=
